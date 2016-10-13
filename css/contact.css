@@ -1,0 +1,28 @@
+h1 {
+  font-size: 50px;
+}
+
+p {
+  text-align: center;
+}
+
+#contactForm {
+  margin: 50px 400px;
+}
+
+#contactForm>div>label {
+  color: white;
+  font-size: 18px;
+}
+
+.btn {
+  font-size: 18px;
+  color: white;
+  background-color: purple;
+  border-color: purple;
+}
+
+.btn:focus, .btn:hover {
+  color: white;
+  background-color: darkgrey;
+}

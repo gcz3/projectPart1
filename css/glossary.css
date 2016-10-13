@@ -1,0 +1,20 @@
+.section {
+  background-color: black;
+  border: white 4px solid;
+}
+
+.section-title {
+  background-color: purple;
+  color: white;
+  border: #666 3px solid;
+  padding: 5px;
+  margin: 5px 0px 5px 0px;
+}
+
+.term {
+  font-weight: bold;
+}
+
+.sub-term {
+padding-left: 50px;
+}

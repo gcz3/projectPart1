@@ -1,0 +1,54 @@
+h2 {
+  color: white;
+}
+
+.frame-data-table {
+  float: left;
+  border-width: 3px;
+}
+
+.frame-data-table>thead>tr>th {
+  color: white;
+  background-color: purple;
+}
+
+.table-striped>tbody>tr:nth-child(even)>td,
+.table-striped>tbody>tr:nth-child(even)>th {
+  color: white;
+  background-color: purple;
+ }
+
+ .table-striped>tbody>tr:nth-child(odd)>td,
+ .table-striped>tbody>tr:nth-child(odd)>th {
+   color: white;
+   background-color: black;
+  }
+
+  .table-hover tbody tr:hover td, .table-hover tbody tr:hover th {
+  background-color: #006666;
+}
+
+.balance-change {
+  color: orange !important;
+  font-weight: bold;
+}
+
+.second-rekka {
+  text-indent: 1em;
+}
+
+.third-rekka {
+  text-indent: 2em;
+}
+
+.chara-portrait {
+  width: 25%;
+  height: auto;
+  float: right;
+}
+
+@media screen and (max-width: 1819px) {
+  .chara-portrait {
+    display: none;
+  }
+}

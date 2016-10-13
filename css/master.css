@@ -1,0 +1,30 @@
+body {
+  background-color: #0d0d0d;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+}
+
+p {
+  color: white;
+}
+
+#menu>ul>li>a:focus, #menu>ul>li>a:hover {
+  background-color: darkgrey;
+}
+
+.menu-item {
+  background-color: purple;
+  color: white;
+}
+
+.menu-item:focus, .menu-item:hover {
+  color: white;
+  background-color: darkgrey;
+}
+
+.version-change {
+  color: orange;
+}
